@@ -8,6 +8,7 @@ import { MobileMenu } from './Sections/MobileMenu'
 import { Contact } from './Sections/Contact'
 import { About } from './Sections/About'
 import { Home } from './Sections/Home'
+import { Skills } from './Sections/Skills'
 
 function App() {
   
@@ -17,6 +18,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false)
     <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen}/>
     <Home />
     <About />
+    <Skills />
     <Contact />
   </div>
 }

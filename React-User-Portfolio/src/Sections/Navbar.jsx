@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { MobileMenu } from './MobileMenu'
 
+
 function Navbar({ isMenuOpen, setIsMenuOpen }) {
 useEffect(()=>{
   document.body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
